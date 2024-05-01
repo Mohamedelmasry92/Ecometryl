@@ -1,7 +1,7 @@
 import React from 'react'
-import styles from './Profile.module.css'
+// import styles from './Profile.module.css'
 import profile from '../../assets/images/profile.jpg'
-import Products from '../Products/Products'
+// import Products from '../Products/Products'
 
 
 import { Link } from 'react-router-dom'
@@ -25,7 +25,7 @@ export default function Profile() {
         <div className='row text-center'>
           <div className='col-md-2'>
 
-            <img src={profile} className='w-100' alt=''/>
+            <img src={profile} className='w-100' alt='profile' loading='lazy'/>
             <h5>Ahmed Tahoun</h5>
             <h6>atahoun10@gmail.com</h6>
             <h6>01287460296</h6>
@@ -44,25 +44,25 @@ export default function Profile() {
             <div className='row text-center'>
             <div className='col-md-2'>
             <div className="product">
-                <img src={product9} className='w-100'  alt="" />
+                <img src={product9} className='w-100'  alt="product"  loading='lazy'/>
                 <button className='btn bg-main text-white w-100 my-3'>Remove from list</button>
             </div>
             </div>
             <div className='col-md-2'>
             <div className="product">
-                <img src={product10} className='w-100'  alt="" />
+                <img src={product10} className='w-100'  alt="product" loading='lazy' />
                 <button className='btn bg-main text-white w-100 my-3'>Remove from list</button>
             </div>
             </div>
             <div className='col-md-2'>
             <div className="product">
-                <img src={product11} className='w-100'  alt="" />
+                <img src={product11} className='w-100'  alt="product" loading='lazy' />
                 <button className='btn bg-main text-white w-100 my-3'>Remove from list</button>
             </div>
             </div>
             <div className='col-md-2'>
             <div className="product">
-                <img src={product12} className='w-100'  alt="" />
+                <img src={product12} className='w-100'  alt="product" loading='lazy' />
                 <button className='btn bg-main text-white w-100 my-3'>Remove from list</button>
             </div>
             
@@ -77,13 +77,13 @@ export default function Profile() {
 
 
               <div className="container mt-3">
-    <div className="row ">
+          <div className="row ">
       
           <div className="col-md-2 mt-2">
           <Link to='../productdetails'> 
 
           <div className="product">
-        <img src={product1} className='w-100'  alt="" />
+        <img src={product1} className='w-100'  alt="product"  loading='lazy'/>
           <h6 className='text-main mt-2 font-small fw-bolder'>Formic acid</h6>
           {/* <p className='fw-bolder'>Used in HPLC :If the pH of the mobile phase needs to be reduced to enhance LC separations, in leather tanning, as a decalcifier and cleaning product, as a chemical  reducing agent, O.</p> */}
           <p className='mt-2'>Quantity : 400 gm</p>
@@ -99,7 +99,7 @@ export default function Profile() {
           <Link to='../productdetails'> 
 
 <div className="product">
-<img src={product2} className='w-100' alt="" />
+<img src={product2} className='w-100' alt="product" loading='lazy'/>
 <h6 className='text-main mt-2 font-small fw-bolder'>Propanol</h6>
 {/* <p className='fw-bolder'>Used in HPLC to reduce time of analysis and In molecular biology : */}
 {/* Protocols for the use of isopropanol: DNA precipitation from mammalian tissue, ethidium bromide extraction from DNA samples, and RNA isolation from cells</p> */}
@@ -117,7 +117,7 @@ export default function Profile() {
           <Link to='../productdetails'> 
 
 <div className="product">
-<img src={product3} className='w-100' alt="" />
+<img src={product3} className='w-100' alt="product" loading='lazy'/>
 <h6 className='text-main mt-2 font-small fw-bolder'>CETRIMIDE (CN) AGAR BASE</h6>
 {/* <p className='fw-bolder'>A selective medium for isolation and identification of Pseudomonas aeraeruginosa</p> */}
           <p className='mt-2'>Quantity : 400 gm</p>
@@ -134,7 +134,7 @@ export default function Profile() {
           <Link to='../productdetails'> 
 
 <div className="product">
-<img src={product4} className='w-100' alt="" />
+<img src={product4} className='w-100' alt="product" loading='lazy'/>
 <h6 className='text-main mt-2 font-small fw-bolder'>Catechol</h6>
 {/* <p className='fw-bolder'>Pyrocatechol , 1,2 dihydroxybenzene</p> */}
           <p className='mt-2'>Quantity : 400 gm</p>
@@ -151,7 +151,7 @@ export default function Profile() {
           <Link to='../productdetails'> 
 
 <div className="product">
-<img src={product5} className='w-100' alt="" />
+<img src={product5} className='w-100' alt="product" loading='lazy'/>
 <h6 className='text-main mt-2 font-small fw-bolder'>Sudan (III) Powder for Microscopical Staining</h6>
 {/* <p className='fw-bolder'>Sudan III is a red fat-soluble dye that is utilized in the identification of the presence of lipids, triglycerides and lipoproteins.</p> */}
           <p className='mt-2'>Quantity : 400 gm</p>
@@ -166,7 +166,7 @@ export default function Profile() {
           <Link to='../productdetails'> 
 
 <div className="product">
-<img src={product6} className='w-100' alt="" />
+<img src={product6} className='w-100' alt="product" loading='lazy'/>
 <h6 className='text-main mt-2 font-small fw-bolder'>DI Sodium Hydrogen Orthophosphate Anhydrous LR</h6>
 {/* <p className='fw-bolder'>As analytical reagent functions as an emulsifier, stabilizer and texturizer; it also is a buffering agent</p> */}
           <p className='mt-2'>Quantity : 400 gm</p>

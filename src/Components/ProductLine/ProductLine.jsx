@@ -1,5 +1,5 @@
 import React from 'react'
-import styles from './ProductLine.module.css'
+// import styles from './ProductLine.module.css'
 import { Link } from 'react-router-dom'
 
 
@@ -20,9 +20,9 @@ export default function ProductLine() {
     </div>      
 
 
-    <div class="container ">
-            <div class="row">
-                <div class="col-md-6 col-sm-12 py-5 bg-white m-auto px-5 py-5 mt-2 shadow-lg">
+    <div className="container ">
+            <div className="row">
+                <div className="col-md-6 col-sm-12 py-5 bg-white m-auto px-5 py-5 mt-2 shadow-lg">
                 <h2 className='mb-2'>Add Your Own Product : </h2>   
                           <form>
                              <label htmlFor="pName" className='mt-3 fw-bolder'>Material Name :</label>

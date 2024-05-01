@@ -1,5 +1,4 @@
 import React from 'react'
-import styles from './About.module.css'
 import aboutImg from '../../assets/images/about.jpeg'
 import goals from '../../assets/images/goals.png'
 import hero from '../../assets/images/hero.jpg'
@@ -10,14 +9,15 @@ import sdg3 from '../../assets/images/sdg3.jpg'
 export default function About() {
   return <>    
 
-            <div className="title pb-3 text-center">
-                <h2 className='mt-5 fw-bold'>Who We Are?</h2>
-                <div className="line translate-middle"></div>
-            </div>
+    <div className="title pb-3 text-center">
+        <h2 className='mt-5 fw-bold'>Who We Are?</h2>
+        <div className="line translate-middle"></div>
+    </div>
+    
     <div className='container my-5'>
       <div className='row align-items-center'>
         <div className='col-md-6'>
-          <img src={aboutImg} className='w-100' alt='' />
+          <img src={aboutImg} className='w-100' alt='About' loading='lazy' />
         </div>      
         <div className='col-md-6 text-center'>
           
@@ -49,14 +49,12 @@ export default function About() {
         </div>      
         
         <div className='col-md-6'>
-          <img src={goals} className='w-100' alt='' />
-          <img src={hero} className='w-100 mt-4' alt='' />
+          <img src={goals} className='w-100' alt='Goals' loading='lazy'/>
+          <img src={hero} className='w-100 mt-4' alt='Hero' loading='lazy'/>
         </div>      
       </div>      
     </div>      
 
-
-    
     <div className='container-fluid my-5 p-5 '>
          <h3 className='mt-5 fw-bold text-center'>SDGs</h3>
          <div className="line translate-middle"></div>
@@ -64,8 +62,8 @@ export default function About() {
       <div className='row  mt-5'>
 
       <div className='col-md-6'>
-          <img src={sdg3} className='w-100 ' alt='' />
-          <img src={sdg} className='w-100 mt-4' alt='' />
+          <img src={sdg3} className='w-100 ' alt='SDG3' loading='lazy'/>
+          <img src={sdg} className='w-100 mt-4' alt='SDG' loading='lazy'/>
         </div>  
 
         <div className='col-md-6 '>

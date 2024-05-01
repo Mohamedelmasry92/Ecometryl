@@ -1,5 +1,5 @@
 import React from 'react'
-import styles from './Register.module.css'
+// import styles from './Register.module.css'
 import { Link } from 'react-router-dom'
 
 
@@ -7,9 +7,9 @@ export default function Register() {
   
   return <>
 
-      <div class="container">
-            <div class="row">
-                <div class="col-sm-12 col-md-6 bg-white m-auto shadow-lg px-5 py-4 mt-2 ">
+      <div className="container">
+            <div className="row">
+                <div className="col-sm-12 col-md-6 bg-white m-auto shadow-lg px-5 py-4 mt-2 ">
                 <h2 className='mb-2'>Register Now : </h2>   
                              <label className='fw-bold w-25 mt-5' htmlFor="name">Name :</label>
                              <input className='form-control my-2 d-inline w-75' placeholder='Enter your name' type="text" name='name' id='name' />

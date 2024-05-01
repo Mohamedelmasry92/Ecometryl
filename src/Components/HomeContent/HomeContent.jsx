@@ -1,11 +1,10 @@
 import React from 'react'
-import styles from './HomeContent.module.css'
-import ecometry from '../../assets/images/ECOMETRY-4.svg'
-import { Link } from 'react-router-dom'
 
 export default function HomeContent() {
   return <>    
-<div className="items ">
+    
+  <header>
+    <div className="items ">
         <div className="layout">
             <div className="header">
                 <div className="text-center">
@@ -18,6 +17,7 @@ export default function HomeContent() {
             </div>
         </div>
     </div>
+  </header>
 
 
 
@@ -31,7 +31,7 @@ export default function HomeContent() {
                 <div className="col-sm-6 col-md-4">
                     <div className=" bg-white shadow py-5 mb-5 rounded-4 hover">
                         <div className="icon d-flex m-auto justify-content-center align-items-center rounded-circle mb-4">
-                            <i class="fa-solid fa-money-bill-trend-up fs-2"></i>
+                            <i className="fa-solid fa-money-bill-trend-up fs-2"></i>
                         </div>
                         <h3>Trading</h3>
                         <p className='lead mt-3 '>sell your surplus materials or buy the needed amount of materials in low price</p>
@@ -40,7 +40,7 @@ export default function HomeContent() {
                 <div className="col-sm-6 col-md-4">
                     <div className=" bg-white shadow py-5 mb-5 rounded-4 hover">
                         <div className="icon d-flex m-auto justify-content-center align-items-center rounded-circle mb-4">
-                            <i class="fa-solid fa-people-group fs-2"></i>
+                            <i className="fa-solid fa-people-group fs-2"></i>
                         </div>
                         <h3>Join a team</h3>
                         <p className='lead mt-3 '>join a team to buy together one or more items and divide the materials between you as needed</p>
@@ -49,7 +49,7 @@ export default function HomeContent() {
                 <div className="col-sm-6 col-md-4">
                     <div className=" bg-white shadow py-5 mb-5 rounded-4 hover">
                         <div className="icon d-flex m-auto justify-content-center align-items-center rounded-circle mb-4">
-                            <i class="fa-regular fa-handshake fs-2"></i>
+                            <i className="fa-regular fa-handshake fs-2"></i>
                         </div>
                         <h3>Charity</h3>
                         <p className='lead mt-3 '>With Ecometryl, give your unneeded surplus materials for researchers in need</p>
@@ -66,7 +66,7 @@ export default function HomeContent() {
                     <div className="col-sm-6 col-md-4">
                         <div>
                             <div className="mb-3 icon-sec m-auto d-flex justify-content-center align-items-center rounded-circle">
-                                <i class="fa-solid fa-dumpster fs-1"></i>
+                                <i className="fa-solid fa-dumpster fs-1"></i>
                             </div>
                             <span className='fs-3 fw-bold'>Total Materials</span>
                             <p className='fw-bolder mt-3'>More than 700 items are offered through the platform</p>
@@ -75,7 +75,7 @@ export default function HomeContent() {
                     <div className="col-sm-6 col-md-4">
                         <div>
                             <div className="mb-3 icon-sec m-auto d-flex justify-content-center align-items-center rounded-circle">
-                              <i class="fa-solid fa-user-doctor fs-1"></i>
+                              <i className="fa-solid fa-user-doctor fs-1"></i>
                             </div>
                             <span className='fs-3 fw-bold'>Experience</span>
                             <p className='fw-bolder mt-3'>1 year of experience in exchanging surplus materials.</p>
@@ -84,7 +84,7 @@ export default function HomeContent() {
                     <div className="col-sm-6 col-md-4">
                         <div>
                             <div className="mb-3 icon-sec m-auto d-flex justify-content-center align-items-center rounded-circle">
-                                <i class="fa-solid fa-users fs-1"></i>
+                                <i className="fa-solid fa-users fs-1"></i>
                             </div>
                             <span className='fs-3 fw-bold'>Total clients</span>
                             <p className='fw-bolder mt-3'>1500 researchers.</p>

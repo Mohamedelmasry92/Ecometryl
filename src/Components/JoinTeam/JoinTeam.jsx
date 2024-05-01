@@ -1,8 +1,8 @@
 import React from 'react'
-import styles from './JoinTeam.module.css'
-import ProductLine from '../ProductLine/ProductLine'
-import Products from '../Products/Products'
-import { Link } from 'react-router-dom'
+// import styles from './JoinTeam.module.css'
+// import ProductLine from '../ProductLine/ProductLine'
+// import Products from '../Products/Products'
+// import { Link } from 'react-router-dom'
 import product1 from '../../assets/images/Products/prod1.jpeg'
 import product2 from '../../assets/images/Products/prod2.jpeg'
 import product4 from '../../assets/images/Products/prod4.jpeg'
@@ -47,7 +47,7 @@ export default function JoinTeam() {
       <div className='row mt-5 '>
         <div className='col-md-3 product'>
             <div className=' text-center circle '>
-              <img src={product1}/>    
+              <img src={product1} alt='product1' loading='lazy'/>    
             </div>
               <h1 className='fs-5 fw-bold text-main'>Team Formic Acid</h1>
               <p className='mt-2'>Category : microbiology</p>
@@ -58,7 +58,7 @@ export default function JoinTeam() {
 
         <div className='col-md-3 product'>
             <div className=' text-center circle '>
-              <img src={product2}/>    
+              <img src={product2} alt='product2' loading='lazy'/>    
             </div>
             <h1 className='fs-5 fw-bold text-main'>Team Propanol</h1>
               <p className='mt-2'>Category : microbiology</p>
@@ -69,7 +69,7 @@ export default function JoinTeam() {
 
         <div className='col-md-3 product'>
             <div className=' text-center circle '>
-              <img src={product4}/>    
+              <img src={product4} alt='product3' loading='lazy'/>    
             </div>
             <h1 className='fs-5 fw-bold text-main'>Team Catechol</h1>
               <p className='mt-2'>Category : microbiology</p>
@@ -81,7 +81,7 @@ export default function JoinTeam() {
 
         <div className='col-md-3 product'>
             <div className=' text-center circle '>
-              <img src={product10}/>    
+              <img src={product10} alt='product4' loading='lazy'/>    
             </div>
             <h1 className='fs-5 fw-bold text-main'>Team Ethanol</h1>
               <p className='mt-2'>Category : microbiology</p>

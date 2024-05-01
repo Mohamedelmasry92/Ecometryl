@@ -1,5 +1,5 @@
 import React from 'react'
-import styles from './Login.module.css'
+// import styles from './Login.module.css'
 import { Link } from 'react-router-dom'
 
 
@@ -8,9 +8,9 @@ export default function Login() {
 
   return <>
   
-      <div class="container">
-            <div class="row">
-                <div class="col-md-6 col-sm-12 py-5 bg-white m-auto px-5 py-5 mt-2 shadow-lg">
+      <div className="container">
+            <div className="row">
+                <div className="col-md-6 col-sm-12 py-5 bg-white m-auto px-5 py-5 mt-2 shadow-lg">
                 <h2 className='my-3'>Login Now : </h2>
 
             <label htmlFor="email" className='fw-bold w-25 mt-5'>Email :</label>

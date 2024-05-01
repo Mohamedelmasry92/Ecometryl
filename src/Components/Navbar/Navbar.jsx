@@ -1,15 +1,14 @@
 import React from 'react'
 import logo from '../../assets/images/output.png'
-import styles from './Navbar.module.css'
 import { Link } from 'react-router-dom'
 
 export default function Navbar() {
   return <>    
     
-      <nav className="navbar navbar-expand-sm navbar-light bg-main-light">
+      <nav className="navbar navbar-expand-lg navbar-light bg-main-light">
           <div className="container">
           <Link className="navbar-brand text-main fw-bolder" to="/">
-              <img src={logo} className='logo-edit' alt="" /> 
+              <img src={logo} className='logo-edit' alt="Logo" loading='lazy' /> 
               <span className='font-small text-main'>ECOMETRYL</span>
           </Link>
           <button className="navbar-toggler d-lg-none" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavId" aria-controls="collapsibleNavId"
@@ -22,7 +21,7 @@ export default function Navbar() {
               <li className="nav-item">
                 <Link className="nav-link text-dark fw-bold nav-hover" to="/">
                   <div className='text-center'>
-                  <i class="fa-solid fa-house"></i>
+                  <i className="fa-solid fa-house"></i>
                   <p className='font-sm fw-bolder'>Home</p>
                   </div>
                 </Link>
@@ -30,7 +29,7 @@ export default function Navbar() {
               <li className="nav-item">
                 <Link className="nav-link text-dark fw-bold nav-hover" to="about">
                 <div className='text-center'>
-                <i class="fa-solid fa-address-card"></i>
+                <i className="fa-solid fa-address-card"></i>
                   <p className='font-sm fw-bolder'>About</p>
                   </div>
                 </Link>
@@ -38,7 +37,7 @@ export default function Navbar() {
               <li className="nav-item">
                 <Link className="nav-link text-dark fw-bold nav-hover" to="products">
                 <div className='text-center'>
-                <i class="fa-solid fa-store"></i>
+                <i className="fa-solid fa-store"></i>
                   <p className='font-sm fw-bolder'>Products</p>
                   </div>
                 </Link>
@@ -46,7 +45,7 @@ export default function Navbar() {
               <li className="nav-item">
                 <Link className="nav-link text-dark fw-bold nav-hover" to="addproduct">
                 <div className='text-center'>
-                <i class="fa-regular fa-square-plus"></i>
+                <i className="fa-regular fa-square-plus"></i>
                   <p className='font-sm fw-bolder'>Add Product</p>
                   </div>
                 </Link>
@@ -54,7 +53,7 @@ export default function Navbar() {
               <li className="nav-item">
                 <Link className="nav-link text-dark fw-bold nav-hover" to="jointeam">
                   <div className='text-center'>
-                  <i class="fa-solid fa-users"></i>
+                  <i className="fa-solid fa-users"></i>
                   <p className='font-sm fw-bolder'>Join Team</p>
                   </div>
                 </Link>
@@ -62,7 +61,7 @@ export default function Navbar() {
               <li className="nav-item">
                 <Link className="nav-link text-dark fw-bold nav-hover" to="products">
                   <div className='text-center'>
-                  <i class="fa-regular fa-handshake"></i>
+                  <i className="fa-regular fa-handshake"></i>
                   <p className='font-sm fw-bolder'>Charity</p>
                   </div>
 
@@ -71,7 +70,7 @@ export default function Navbar() {
               <li className="nav-item">
                 <Link className="nav-link text-dark fw-bold nav-hover" to="cart"> 
                 <div className='text-center'>
-                  <i class="fa-solid fa-cart-shopping"></i>
+                  <i className="fa-solid fa-cart-shopping"></i>
                   <p className='font-sm fw-bolder'>Cart</p>
                   </div>
                 </Link>

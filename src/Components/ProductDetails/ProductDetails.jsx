@@ -1,5 +1,5 @@
 import React from 'react'
-import styles from './ProductDetails.module.css'
+// import styles from './ProductDetails.module.css'
 import product1 from '../../assets/images/Products/prod1.jpeg'
 
 
@@ -9,7 +9,7 @@ export default function ProductDetails() {
     <div className='container-fluid my-5'>
       <div className='row'>
         <div className='col-md-4 text-center'>
-          <img src={product1} className='w-50'  alt="" />
+          <img src={product1} className='w-50'  alt="product1" loading='lazy' />
         </div>
         <div className='col-md-8'>
         <h6 className='text-main mt-2 font-small fw-bolder'>Formic acid</h6>

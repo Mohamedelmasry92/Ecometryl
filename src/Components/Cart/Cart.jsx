@@ -1,5 +1,5 @@
 import React from 'react'
-import styles from './Cart.module.css'
+// import styles from './Cart.module.css'
 import product9 from '../../assets/images/Products/prod9.jpeg'
 import product10 from '../../assets/images/Products/prod10.jpeg'
 import product12 from '../../assets/images/Products/prod12.jpeg'
@@ -19,7 +19,7 @@ export default function Cart() {
             <div className='row text-center'>
             <div className='col-md-2'>
             <div className="product">
-                <img src={product9} className='w-100'  alt="" />
+                <img src={product9} className='w-100'  alt="Product9" loading='lazy' />
                 <h6 className='text-main mt-2 font-small fw-bolder'>PLATE COUNT AGAR</h6>
                 <p className='mt-2'>Selected quantity : 100 gm</p>
                 <span>Price: 900 EGP</span>
@@ -30,7 +30,7 @@ export default function Cart() {
 
             <div className='col-md-2'>
             <div className="product">
-                <img src={product10} className='w-100'  alt="" />
+                <img src={product10} className='w-100'  alt="Product10" loading='lazy' />
                 <h6 className='text-main mt-2 font-small fw-bolder'>Ethanol</h6>
                 <p className='mt-2'>Selected quantity : 200 gm</p>
                 <span>Price: 650 EGP</span>
@@ -42,7 +42,7 @@ export default function Cart() {
 
             <div className='col-md-2'>
             <div className="product">
-                <img src={product14} className='w-100'  alt="" />
+                <img src={product14} className='w-100'  alt="Product14" loading='lazy' />
                 <h6 className='text-main mt-2 font-small fw-bolder'>Urea pellets</h6>
                 <p className='mt-2'>Selected quantity : 150 gm</p>
                 <span>Price: 300 EGP</span>
@@ -54,7 +54,7 @@ export default function Cart() {
             
             <div className='col-md-2'>
               <div className="product">
-                <img src={product12} className='w-100'  alt="" />
+                <img src={product12} className='w-100'  alt="Product12" loading='lazy' />
                 <h6 className='text-main mt-2 font-small fw-bolder'>Chromium standard solution</h6>
                 <p className='mt-2'>Selected quantity : 250 gm</p>
                 <span>Price: 420 EGP</span>
